@@ -92,7 +92,8 @@
 
 ## Editors
 
-![Alt text] (images/vi-editor.svg)
+![vi-editor logo](https://raw.githubusercontent.com/Venkatakoti-lab/Linux/main/images/vi-editor.svg)
+
 
 - vim editor: Visually improved editor
 - `vim <filename>` - Creates a file and opens it if its not present. If its present, it opens the file directly
