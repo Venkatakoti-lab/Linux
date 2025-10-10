@@ -88,10 +88,13 @@
 - `cut -d <delimiter> -f <index of the fragement>` -> Cut the string based on a delimiter
   - `-d` -> delimiter
   - `-f` -> fragment
+## we will use cut command to divide fragments based on particular delimiter it is our wish to select as which one is delimiter
+
   - The disadvantage with this command is that, we need to calcuate the fragment number manually
 - `awk -F <delimiter> {print $<index of the fragement>F}`
   - To get the last fragment, we can use **NF** i.e `awk -F <delimiter> {print $NF}`
   - We can also use `awk` for column based filtering
+## awk command is used to divide the data based on columns
 - By default root userID is 0
 
 ## Editors
