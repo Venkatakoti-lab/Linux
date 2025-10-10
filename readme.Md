@@ -72,10 +72,9 @@
   - Case sensitive
   - To make it case insensitive: `-i` option
 - `|` -> Pass the output of a command as an input to another command
-```
-**`| ==>> piping`**
-one command output will become input to another command
-```
+
+**`| ==>> piping one command output will become input to another command`**
+
   - E.g. `cat /etc/passwd | grep sbin`
 - `head filename` -> First 10 lines of the file by default
   - `-n <no: of lines>` - print those no: of lines
