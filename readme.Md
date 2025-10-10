@@ -73,7 +73,7 @@
   - To make it case insensitive: `-i` option
 - `|` -> Pass the output of a command as an input to another command
 ```
-*** | ==>> piping ***
+**| ==>> piping**
 one command output will become input to another command
 ```
   - E.g. `cat /etc/passwd | grep sbin`
