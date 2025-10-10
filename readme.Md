@@ -47,12 +47,13 @@
 - `uname` -> which kernel are we using?
   - `uname -a` -> Detailed information of the kernel
 - `ls` -> list all the files and folders in that folder
-  - `ls -l` -> long listing of each file and folder
-  - `ls -lr` -> Sort files in alphabetical order
-  - `ls -lrt` -> Sort files from oldest to newest
+  - `ls -l` -> lengthy format in alphabetic order
+  - `ls -lr` -> reverse alphabetic order
+  - `ls -lt` --> latest files are on the top
+  - `ls -ltr` -> old files are on the top
     - `d` -> directory
     - `-` -> file
-  - `ls -la` -> long listing including hidden files and folders
+  - `ls -la` -> list all files and folders including hidden
 - `cd <path-of-the-directory>` -> Change directory
 - `touch <filename>` -> An empty file is created with the filename
 - `mkdir <folder-name>` -> Create a folder
