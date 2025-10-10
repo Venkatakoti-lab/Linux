@@ -92,6 +92,8 @@
 
 ## Editors
 
+file:///C:/Users/Dell/Downloads/vi-editor.svg
+
 - vim editor: Visually improved editor
 - `vim <filename>` - Creates a file and opens it if its not present. If its present, it opens the file directly
   - There are 3 modes in vim:
