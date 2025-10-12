@@ -261,6 +261,7 @@
 - /bin - All the binaries for executing the commands such as pwd, ls, vim, top etc are stored here
 - /sbin - System binaries i.e. Admin related commands
 - /temp - For storing temporary data. The data present in this directory will be deleted once the server is restarted
+- /usr --> all users inforamtions
 - /var (Variables) - All the log files, system related messages etc.
   - To scroll through the messages, we can use `less` command
     - `shift + g` to scroll to the end
