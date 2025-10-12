@@ -276,7 +276,12 @@
 - Softlink / Symbolic link: It is the shortcut that points to the original file which points to the inode value
   - To create a symlink, we use: `ln -s <source-file> <link-name>`
   - The inode value of the symlink file is **different** than the original one
-  - If the source file is deleted, the softlink throws No such file or directory exception
+  - If the source file is deleted, the softlink throws No such file or directory exception.
+
+
+![sym-link logo](https://raw.githubusercontent.com/Venkatakoti-lab/Linux/main/images/sym-link.svg)
+
+
 - Hard link: Creates a copy of the file but points to the same inode value
   - To create a hard link, we use: `ln <source-file> <link-name>`
   - To find the source file of the hardlink, we can use the inode number
@@ -285,6 +290,9 @@
 - To extract the .tar.gz file, we use: `tar -xf <.tar.gz file path>`
   - `-x` - Extraction
   - `-f` - filename
+
+  ![hard-link logo](https://raw.githubusercontent.com/Venkatakoti-lab/Linux/main/images/hard-link.svg)
+  
 
 ## Crontab
 
