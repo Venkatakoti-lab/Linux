@@ -269,8 +269,10 @@
 
 ## inode, symlink/softlink, hard link, Tar command
 
-- inode: For everything in the linux filesystem, there is a number associated to it i.e. a pointer to where it is stored in the harddisk.
-  - We can fetch this information using: `ls -ltri`
+- inode: Indoe is the representation of file and folder inside the memory it is a number.
+   we use to know the storage location, ownership,permissions of the file.
+   inode = index node
+   We can fetch this information using: `ls -ltri`
 - Softlink / Symbolic link: It is the shortcut that points to the original file which points to the inode value
   - To create a symlink, we use: `ln -s <source-file> <link-name>`
   - The inode value of the symlink file is **different** than the original one
