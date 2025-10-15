@@ -287,11 +287,12 @@
   - To find the source file of the hardlink, we can use the inode number
     - `find <where-to-search> -inum <inode-number>`
   - If the source file is deleted, the hard link still holds the data
+
+
+  ![hard-link logo](https://raw.githubusercontent.com/Venkatakoti-lab/Linux/main/images/hard-link.svg)
 - To extract the .tar.gz file, we use: `tar -xf <.tar.gz file path>`
   - `-x` - Extraction
   - `-f` - filename
-
-  ![hard-link logo](https://raw.githubusercontent.com/Venkatakoti-lab/Linux/main/images/hard-link.svg)
   
 
 ## Crontab
